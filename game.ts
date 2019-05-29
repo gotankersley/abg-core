@@ -1,6 +1,5 @@
+import {Move, Board, PlayerType, Player} from "./board";
 
-import {Board, Move, WinInfo} from '../board';
-import {Player, PlayerType} from './player';
 
 
 export enum EventType {
@@ -22,8 +21,8 @@ export class Game {
     private players:Player[];
     public board:Board;
 
-    constructor(boardStr?:string) {
-        if (!boardStr) this.board = new Board();
+    constructor(board?:Board|string) {
+        if (typeof(board) != "string") this.board = board;                
         
         this.eventListeners = {};
         this.players = [
