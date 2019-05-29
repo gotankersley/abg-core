@@ -1,6 +1,6 @@
 {
   "name": "abg-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Abstract-Board-Game framework",
   "private": false,
   "main": "index.js",
