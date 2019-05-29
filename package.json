@@ -1,0 +1,28 @@
+{
+  "name": "abg-core",
+  "version": "1.0.0",
+  "description": "Abstract-Board-Game framework",
+  "private": false,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "author": "gotankersley",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gotankersley/abg-core.git"
+  },
+  "keywords": [
+    "abg",
+    "board-games",
+    "abstract-strategy"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/gotankersley/abg-core/issues"
+  },
+  "homepage": "https://github.com/gotankersley/abg-core#readme"
+}
