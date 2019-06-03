@@ -58,6 +58,10 @@ export class Game {
         else this.eventListeners[EventType.PLAYED](this.board);
     }
 
+    public updateBoard(board:Board) {
+        this.board = board;
+        this.eventListeners[EventType.BOARD_UPDATE](this.board); 
+    }
     //Stubs:
     public save() {}
     public load() {}

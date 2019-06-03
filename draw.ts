@@ -1,4 +1,4 @@
-export function drawLine(ctx:CanvasRenderingContext2D, x1:number, y1:number, x2:number, y2:number) {
+export function line(ctx:CanvasRenderingContext2D, x1:number, y1:number, x2:number, y2:number) {
 	ctx.beginPath();	
 	ctx.moveTo(x1, y1);
 	
@@ -7,7 +7,7 @@ export function drawLine(ctx:CanvasRenderingContext2D, x1:number, y1:number, x2:
 	ctx.stroke();   
 }
 
-export function drawCircle(ctx:CanvasRenderingContext2D, x:number, y:number, r:number) {
+export function circle(ctx:CanvasRenderingContext2D, x:number, y:number, r:number) {
 	ctx.beginPath();    
 	ctx.arc(x + r,y + r, r, 0, 2 * Math.PI, true);	
 	ctx.closePath();    
